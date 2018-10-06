@@ -1,8 +1,8 @@
 ## ELI5
-**Binary Serch** is a way of searching for a thing in a list of things. The list must be sorted, that is, it must be in order of some comparable value or the it won't work. First, we go to the middle of the list and see if the item value equals to the value we want to find. Then, if our value is less/greater than the item in the middle, we work on a new list (which starts from the middle and all the way to the bottom or top) and everything on the bottom or top side. We keep doing this until we find the value we were looking for or if were fluctuating between two elements.
+**Binary Search** is a way of searching for a thing in a list of things. The list must be sorted, that is, it must be in order of some comparable value or the it won't work. First, we go to the middle of the list and see if the item value equals to the value we want to find. Then, if our value is less/greater than the item in the middle, we work on a new list (which starts from the middle and all the way to the bottom or top) and everything on the bottom or top side. We keep doing this until we find the value we were looking for or if were fluctuating between two elements.
 
 ## Pros
-* It takes much less time than a reqular sequential search. 
+* It takes much less time than a regular sequential search. 
 * Average case of O(log n) vs O(n) for a linear search
 
 ## Cons
